@@ -23,6 +23,10 @@
   },
   "devDependencies": {
   },
+  "scripts": {
+    "postversion": "git push",
+    "deploy": "npm version patch && npm publish"
+  },
   "publishConfig": {
     "access": "public"
   }
