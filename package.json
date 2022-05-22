@@ -1,7 +1,7 @@
 {
   "name": "@do-while-for-each/react-cmmn-packs",
   "description": "Common packs for any React.js app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/dwfe/react-cmmn-packs",
   "bugs": "https://github.com/dwfe/react-cmmn-packs/issues",
   "repository": {
@@ -21,8 +21,7 @@
     "@types/react-dom": "18.x.x",
     "classnames": "2.3.1"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
     "postversion": "git push",
     "deploy": "npm version patch && npm publish"
